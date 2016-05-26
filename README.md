@@ -13,7 +13,7 @@ Mat<4,3> mat; // A mat with 4 rows and 3 column. By default, the type of each el
 ```
 or
 ```cpp
-Mat<4,3> mat = Mat<4,3>(); // elements of mat is initialized to 0
+Mat<4,3,int> mat = Mat<4,3>(); // the type of each element is int. elements of mat is initialized to 0
 ```
 or
 ```cpp
