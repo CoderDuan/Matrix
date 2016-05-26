@@ -8,7 +8,8 @@ To use this Mat class, just include "mat.h"
 For initialize, you can use an array pointer to initialize. 
 If you use default constructor, all elements in the matrix will be initialized to 0.
 ```cpp
-Mat<4,3> mat; // elements of mat is initialized to 0
+Mat<4,3> mat; // A mat with 4 rows and 3 column. By default, the type of each element is float.
+              // Elements of mat is initialized to 0
 ```
 or
 ```cpp
